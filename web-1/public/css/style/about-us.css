@@ -1,0 +1,209 @@
+.row-top-about-us {
+    height: 500px;
+    align-items: center;
+    margin: 50px 0 0 0;
+}
+.row-about-us {
+    display: flex;
+}
+.text-top-about-us{
+    flex-basis: 40%;
+    max-width: 40%;
+}
+.img-top-about-us{
+    flex-basis: 60%;
+    max-width: 60%;
+}
+.text-top-about-us h3 {
+    font-size: 2.5rem;
+    color: #1f2c73!important;
+    font-weight: 500;
+}
+.text-top-about-us p {
+    margin: 30px 0;
+    color: #7184ad!important;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.text-top-about-us a {
+    padding: 15px 20px;
+    color: white;
+    background-color: #299572;
+    border-color: #299572;
+    border-radius: 10px;
+}
+.btn-top-about-us {
+    margin-top: 10px;
+    display: inline-block;
+}
+.btn-top-about-us:hover {
+    background-color: #2c9f7a;
+    border-color: #2c9f7a;
+    transform: translateY(-5px);
+    transition: .2s;
+}
+.btn-top-about-us:hover a {
+    box-shadow: 0 0 10px gray;
+}
+.img-top-about-us {
+    background-image: url(../../images/unsplash/22.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 3px;
+}
+.mid-about-us {
+    background-color: #f6f9fc!important;
+}
+.row-mid-about-us {
+    height: 700px;
+    align-items: center;
+    margin: 50px 0 0 0;
+    padding: 100px 0;
+}
+.text-mid-about-us {
+    flex-basis: 30%;
+    max-width: 30%;
+}
+.svg-mid-about-us {
+    display: flex;
+    background-color: #ddf5f4!important;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.svg-mid-about-us svg {
+    width: 50%;
+    height: 50%;
+}
+.row-mid-about-us h3 {
+    font-size: 2rem;
+    margin: 20px 0;
+    font-weight: 400;
+    color: #1f2c73;
+}
+.row-mid-about-us p {
+    margin: 10px 0;
+    color: #7184ad;
+    line-height: 1.5;
+}
+.right-mid-about-us {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 70%;
+    max-width: 70%;
+    padding-left: 150px;
+    height: 100%;
+    align-items: center;
+}
+.right-mid-about-us-content {
+    flex-basis: 50%;
+    max-width: 50%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 70px 70px;
+}
+.right-mid-about-us-content h4,
+.right-mid-about-us-content p {
+    flex-basis: 100%;
+    max-width: 100%;
+}
+.right-mid-about-us-content h4 {
+    font-size: 4rem;
+    font-weight: 500;
+}
+.purple-background {
+    background-color: #6672e8!important;
+    color: white;
+}
+.purple-background p {
+    color: #fff;
+}
+.white-background {
+    color: #fff;
+    background-color: #1f2c73;
+}
+.white-background p {
+    color: #fff;
+}
+.border-2-4 {
+    border-radius: 0 200px 0 200px;
+}
+.border-1-3 {
+    border-radius: 200px 0 200px 0;
+}
+.bot-about-us {
+    background-color: #f6f9fc!important;
+}
+.row-bot-about-us {
+    align-items: center;
+    padding: 100px 0;
+}
+.left-bot-about-us {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1-bot-about-us{
+    flex-basis: 50%;
+    max-width: 45%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    height: 350px;
+    padding: 20px;
+    color: #f6f9fc;
+}
+.col-1-bot-about-us h4 {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.img-bot-about-us-1 {
+    background-image: url(../../images/unsplash/21.jpeg);
+}
+.img-bot-about-us-2 {
+    background-image: url(../../images/unsplash/64.jpeg);
+}
+.img-bot-about-us-3 {
+    background-image: url(../../images/unsplash/1.jpeg);
+}
+.img-bot-about-us-4 {
+    background-image: url(../../images/unsplash/63.jpeg);
+}
+.img-bot-about-us-5 {
+    background-image: url(../../images/unsplash/23.jpeg);
+}
+.img-bot-about-us-6 {
+    background-image: url(../../images/unsplash/2.jpeg);
+}
+.bot-about-us-col-1-2 {
+    margin-top: 50px;
+}
+.right-bot-about-us {
+    padding-left: 100px;
+}
+.right-bot-about-us h4 {
+    color: #299572;
+    font-weight: 550;
+    margin-bottom: 30px;
+}
+.right-bot-about-us h3 {
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+.right-bot-about-us span {
+    font-weight: 600;
+}
+.right-bot-about-us p {
+    margin: 10px 0 20px 0;
+    color: #7184ad;
+}
+

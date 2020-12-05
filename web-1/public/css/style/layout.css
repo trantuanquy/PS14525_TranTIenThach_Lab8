@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+#container-header {
+    width: 100%;
+    background: linear-gradient( to bottom,#e9f4ff, #f6f9fc);
+    z-index: 99999;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.task-bar {
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo {
+    flex-basis: 30%;
+    max-width: 30%;
+}
+.logo a {
+    display: block;
+}
+.logo a svg {
+    color: darkblue;
+}
+.feature-task-bar {
+    flex-basis: 70%;
+    max-width: 70%;
+
+}
+.task-bar-list {
+    display: flex;
+    justify-content: flex-end;
+}
+.task-bar-item {
+    margin-left: 80px;
+
+}
+.task-bar-link {
+    color: black;
+}
+.buy-now {
+    background-color: #016ff7;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: all .5s;
+
+}
+.buy-now-tranform:hover {
+    transform: translateY(-5px);
+    transition: all .5s;
+}
+.buy-now-tranform:hover a {
+    box-shadow: 0 0 10px gray;
+}
+.header-banner {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+    background: linear-gradient( to top,#e9f4ff, #f6f9fc);
+}
+.row-banner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.left-banner {
+    flex-basis: 50%;
+    max-width: 50%;
+}
+.left-banner h3 {
+    text-transform: uppercase!important;
+    letter-spacing: 2px!important;
+    font-size: .7rem!important;
+    color: #7184ad;
+}
+.title-banner {
+    margin: 2rem 0;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #1f2c73;
+    line-height: 1.2;
+}
+.title-banner span {
+    color : #2083fe!important;
+}
+.left-banner p {
+    width: 80%;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #7184ad;
+}
+.btn-banner {
+    margin-right: 1.5rem;
+}
+.btn-banner-left {
+    background-color: #016ff7;
+    color: white;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 15px;
+}
+.btn-banner-container {
+    display: flex;
+}
+.btn-banner-right {
+    background-color: #fff;
+    color: #1f2c73;
+    font-size: 15px;
+    border-radius: 6px;
+    padding: 10px;
+}
+.btn-banner-hover:hover {
+    transform: translateY(-5px);
+    transition: .5s;
+}
+.btn-banner-hover:hover a{
+    box-shadow: 0 0 10px gray;
+}
+.right-banner {
+    flex-basis: 50%;
+    max-width: 50%;
+    flex-wrap: wrap;
+}
+.img-banner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.img-banner img {
+    position: absolute;
+    width: 55%;
+}
+.img-banner-1 {
+    top: 0;
+    right: -25%;
+    z-index: 2;
+    transform: translateX(-25%);
+}
+.img-banner-2 {
+    top: 50%;
+    right: 35%;
+    transform: translateY(-50%);
+}
+.img-banner-3 {
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
+.footer {
+    background-color: #1e2e50;
+    padding: 25px;
+}
+.row-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.footer-list>h3 {
+    color: #2083fe;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.footer-list {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-list a {
+    color: #e9f4ff;
+    margin-bottom: 10px;
+}
+.icon {
+    background-color: #e9f4ff;
+    color: #1e2e50;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+}
+.icon-social {
+    display: flex;
+    justify-content: center;
+}
+.icon-social a {
+    margin: 2rem 10px;
+    text-decoration: none;
+}
+.icon-social a:hover {
+    transform: translateY(-10px);
+    transition: .5s;
+}
+.footer-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    margin: 30px 0;
+}
+.footer-text p {
+    margin-bottom: 20px;
+    color: rgba(233,244,255,.6);
+}
+.footer-text-link {
+    display: flex;
+}
+.footer-text-link a {
+    color: rgba(233,244,255,.6);
+    margin: 0 20px;
+}
+.footer-bot {
+    text-align: center;
+    margin: 3.5rem 0;
+}
+.footer-bot p{
+    color: rgba(233,244,255,.6);
+    font-size: 15px;
+}
+.footer-brand {
+    text-align: center;
+}

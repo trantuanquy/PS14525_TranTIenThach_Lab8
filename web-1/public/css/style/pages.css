@@ -1,0 +1,8 @@
+.pages {
+    background-color: #f6f9fc!important;
+    padding: 100px 0;
+}
+.page-row {
+    display: flex;
+    justify-content: center;
+}
